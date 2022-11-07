@@ -1,7 +1,55 @@
 .Welcome {
-  height: 100vh;
+  height: 110vh;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
     url("/images/dark-bg.jpg");
+
+  .content {
+    height: auto;
+    width: 90%;
+
+    .Image {
+      height: auto;
+      max-height: 400px;
+      object-fit: scale-down;
+    }
+
+    .info {
+      width: 500px;
+      height: 400px;
+
+      h1 {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 600;
+
+        span {
+          color: var(--primary-color);
+        }
+      }
+
+      p {
+        color: #fff;
+        margin: 1.2rem 0;
+        padding-bottom: 1rem;
+      }
+    }
+
+    .item {
+      flex-direction: column;
+
+      i {
+        font-size: 3rem;
+        color: var(--primary-color);
+      }
+
+      h4 {
+        font-size: 0.9rem;
+        color: #fff;
+        font-weight: 300;
+        margin-top: 0.5rem;
+      }
+    }
+  }
 }
