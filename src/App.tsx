@@ -1,4 +1,4 @@
-import Root from './Root'
+import Root from './pages/Root'
 import { BrowserRouter } from "react-router-dom"
 
 function App() {
