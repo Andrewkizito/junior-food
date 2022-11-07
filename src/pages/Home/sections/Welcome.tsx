@@ -1,9 +1,9 @@
 //Importing helper functions
-import { Grid } from "@mui/material";
 import classNames from "classnames";
-import { welcome_slots } from "../../../utils/data";
 
 //Importing core components
+import { Grid } from "@mui/material";
+import { welcome_slots } from "../../../utils/data";
 
 //Importing styles
 import styles from "../styles.module.scss";
