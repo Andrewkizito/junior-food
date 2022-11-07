@@ -1,9 +1,10 @@
 import Layout from "../../components/core/Layout";
+import Welcome from "./sections/Welcome";
 
 const Home = () => {
   return (
-    <Layout title={"Hello"}>
-      <h1>Home</h1>
+    <Layout>
+      <Welcome />
     </Layout>
   );
 };

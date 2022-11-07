@@ -1,14 +1,11 @@
-import React from "react";
-
 //Importing core components
 import Header from "./Header";
 
 type LayoutProps = {
-  children: any;
-  title: String;
+  children: JSX.Element;
 };
 
-const Layout = ({ children, title }: LayoutProps) => {
+const Layout = ({ children }: LayoutProps) => {
   return (
     <div>
       <Header />
