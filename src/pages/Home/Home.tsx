@@ -7,7 +7,7 @@ const Home = () => {
     <Layout>
       <>
         <Welcome />
-        <Meals />
+        {/* <Meals /> */}
       </>
     </Layout>
   );
