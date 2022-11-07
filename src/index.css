@@ -4,7 +4,7 @@
 }
 
 :root {
-  --primary-color: coral;
+  --primary-color: rgb(240, 88, 0);
 }
 
 * {
@@ -17,15 +17,38 @@ a {
   color: inherit;
   text-decoration: none;
   font-size: 0.9rem;
-  transition: all 1s;
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -ms-transition: all 1s;
-  -o-transition: all 1s;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
 }
 
 i {
   line-height: normal !important;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  width: 100px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0.5rem 0rem;
+  font-family: "Avenir-Book", sans-serif;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 /* Works on Firefox */
