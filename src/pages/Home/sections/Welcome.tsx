@@ -27,8 +27,8 @@ const Welcome = () => {
             tristique metus. Maecenas ultrices venenatis neque id pellentesque.{" "}
           </p>
           <Grid container spacing={3}>
-            {welcome_slots.map((item) => (
-              <Grid item xs={12} sm={4}>
+            {welcome_slots.map((item, i) => (
+              <Grid item xs={12} sm={4} key={i}>
                 <div className={classNames(styles.item, "center")}>
                   <div dangerouslySetInnerHTML={{ __html: item.icon }} />
                   <h4>{item.title}</h4>

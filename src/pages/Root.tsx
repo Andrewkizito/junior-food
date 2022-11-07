@@ -4,8 +4,8 @@ import { routes } from "../utils/routes";
 const Root = () => {
   return (
     <Routes>
-      {routes.map((item) => (
-        <Route path={item.pathname} element={<item.element />} />
+      {routes.map((item, i) => (
+        <Route key={i} path={item.pathname} element={<item.element />} />
       ))}
     </Routes>
   );

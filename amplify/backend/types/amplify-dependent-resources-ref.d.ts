@@ -1,7 +1,8 @@
 export type AmplifyDependentResourcesAttributes = {
     "auth": {
         "userPoolGroups": {
-            "adminGroupRole": "string"
+            "adminGroupRole": "string",
+            "customersGroupRole": "string"
         },
         "Auth": {
             "IdentityPoolId": "string",
