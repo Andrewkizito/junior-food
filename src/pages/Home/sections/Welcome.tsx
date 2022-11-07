@@ -26,7 +26,7 @@ const Welcome = () => {
             dictum quam, a elementum magna. Donec non interdum tortor. Ut cursus
             tristique metus. Maecenas ultrices venenatis neque id pellentesque.{" "}
           </p>
-          <Grid container spacing={3}>
+          <Grid container spacing={3} justifyContent="center">
             {welcome_slots.map((item, i) => (
               <Grid item xs={12} sm={4} key={i}>
                 <div className={classNames(styles.item, "center")}>
@@ -35,6 +35,9 @@ const Welcome = () => {
                 </div>
               </Grid>
             ))}
+            <Grid item xs={12}>
+              <button className={styles.meals}>Already Hungry</button>
+            </Grid>
           </Grid>
         </div>
       </div>
